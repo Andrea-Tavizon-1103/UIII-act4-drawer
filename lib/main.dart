@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:myapp/formularios/form_producto.dart';
+import 'package:myapp/formularios/form_categorias.dart';
 import 'package:myapp/homepage.dart';
 
 void main() {
@@ -15,6 +17,8 @@ class MyApp extends StatelessWidget {
       home: Homepage(),
       routes: {
         "/home": (context) => Homepage(),
+        "/productos": (context) => Productos(),
+        "/categorias": (context) => Categorias(),
       },
     );
   }
